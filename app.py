@@ -73,9 +73,9 @@ def contactOne():
             name = request.form["name"]
             email = request.form["email"]
             address = request.form["address"]
-            with sqlite3.connect("dreamjourney.db") as con:
+            with sqlite3.connect("DigiTransIoT.db") as con:
                 cur = con.cursor()
-                cur.execute("INSERT INTO Dreamjourney (name, email, address) VALUES (?, ?, ?)", (name, email, address))
+                cur.execute("INSERT INTO DigiTransIoT (name, email, address) VALUES (?, ?, ?)", (name, email, address))
                 con.commit()
                 msg = "Employee successfully Added"
         except sqlite3.Error as e:
