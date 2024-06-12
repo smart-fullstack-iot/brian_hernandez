@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from templates.themekit.dev/execoore/projects-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2024 22:25:18 GMT -->
+<!-- Mirrored from templates.themekit.dev/execoore/projects-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2024 22:28:35 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> DreamJourney Innovative IT Company</title>
+    <title> DigiTransIoT </title>
     <meta name="description" content="Pioneering IT solutions at DreamJourney Innovative IT Company">
     <script src="{{url_for('static',filename='themekit/scripts/jquery.min.js')}}"></script>
     <script src="{{url_for('static',filename = 'themekit/scripts/main.js')}}"></script>
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{url_for('static',filename = 'themekit/css/contact-form.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename = 'themekit/css/media-box.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename = 'themekit/css/skin.css')}}">
-    <link rel="icon" href="{{url_for('static',filename = 'media/favicon.png')}}">
+    <link rel="icon" href="{{url_for('static',filename = 'media/logo-no-background.svg')}}">
 </head>
 <body>
     <div id="preloader"></div>
@@ -26,156 +26,59 @@
         <div class="container">
             <div class="menu-brand">
                 <a href="#">
-                    <img class="logo-default scroll-hide" src="{{url_for('static', filename = 'media/logo.svg')}}" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="{{url_for('static', filename = 'media/logo.svg')}}" alt="logo" />
-                    <img class="logo-default scroll-show" src="{{url_for('static', filename = 'media/logo.svg')}}" alt="logo" />
-                    <img class="logo-retina scroll-show" src="{{url_for('static', filename = 'media/logo.svg')}}" alt="logo" />
+                    <img class="logo-default scroll-hide" src="{{url_for('static', filename = 'media/logo.svg')}}"
+                        alt="logo" />
+                    <img class="logo-retina scroll-hide" src="{{url_for('static', filename = 'media/logo.svg')}}"
+                        alt="logo" />
+                    <img class="logo-default scroll-show" src="{{url_for('static', filename = 'media/logo.svg')}}"
+                        alt="logo" />
+                    <img class="logo-retina scroll-show" src="{{url_for('static', filename = 'media/logo.svg')}}"
+                        alt="logo" />
                 </a>
+                <p style="color: white; font-size: large;">DigiTransIoT</p>
             </div>
             <i class="menu-btn"></i>
             <div class="menu-cnt">
                 <ul id="main-menu">
                     <li class="">
                         <a href="{{url_for('home')}}">Home</a>
-                       
                     </li>
-                    <li class="dropdown">
-                        <a href="#">Pages</a>
-                    <ul>
-                    <li class="dropdown-submenu">
-                        <a>About</a>
-                        <ul>
-                            <li><a href="{{url_for('about')}}">About</a></li>
-                            <li><a href="{{url_for('team')}}">Team</a></li>
-                        </ul>
-                            </li>
-                            <ul>
-                            <li class="dropdown-submenu">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="{{url_for('serviceOne')}}">Security audits</a></li>
-                                    <li><a href="{{url_for('serviceTwo')}}">Artificial intelligence</a></li>
-                                    <li><a href="{{url_for('serviceThree')}}">Bots and support</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a>Others</a>
-                                <ul>
-                                    <li><a href="{{url_for('pricing')}}">Prices</a></li>
-                                    <li><a href="{{url_for('faq')}}">Faq</a></li>
-                                    <li><a href="{{url_for('gallery')}}">Gallery</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <!-- <li class="">
+                        <a href="{{url_for('serviceOne')}}">Embedded Solution</a>
                     </li>
-                            <li class="dropdown-submenu">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="{{url_for('serviceOne')}}">Security audits</a></li>
-                                    <li><a href="{{url_for('serviceTwo')}}">Artificial intelligence</a></li>
-                                    <li><a href="{{url_for('serviceThree')}}">Bots and support</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a>Others</a>
-                                <ul>
-                                    <li><a href="{{url_for('pricing')}}">Prices</a></li>
-                                    <li><a href="{{url_for('faq')}}">Faq</a></li>
-                                    <li><a href="{{url_for('gallery')}}">Gallery</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <li class="">
+                        <a href="{{url_for('serviceTwo')}}">IoT Solution</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#">Projects</a>
-                        <ul>
-                            <li class="dropdown-submenu">
-                                <a>Projects list</a>
-                                <ul>
-                                    <li><a href="{{url_for('projectsOne')}}">Projects one</a></li>
-                                    <li><a href="{{url_for('projectsTwo')}}">Projects two</a></li>
-                                    <li><a href="{{url_for('projectsThree')}}">Projects three</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li class="dropdown-submenu">
-                                <a>Project details</a>
-                                <ul>
-                                    <li><a href="project-1.html">Project details one</a></li>
-                                    <li><a href="project-2.html">Project details two</a></li>
-                                </ul>
-                            </li> -->
-                        </ul>
-                    </li>
-                    <!-- <li class="dropdown">
-                        <a href="#">Blog</a>
-                        <ul>
-                            <li><a href="blog-1.html">Classic</a></li>
-                            <li><a href="blog-2.html">Grid</a></li>
-                            <li><a href="blog-3.html">Masonry</a></li>
-                            <li class="dropdown-submenu">
-                                <a>Posts</a>
-                                <ul>
-                                    <li><a href="post-1.html">Post one</a></li>
-                                    <li><a href="post-2.html">Post two</a></li>
-                                    <li><a href="post-3.html">Post three</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <li class="">
+                        <a href="{{url_for('serviceThree')}}">Full-Stack Solution</a>
                     </li> -->
-                    <li class="dropdown">
-                        <a href="#">Contacts</a>
-                        <ul>
-                            <li><a href="{{url_for('contactOne')}}">Contacts one</a></li>
-                        </ul>
+                    <li class="">
+                        <a href="{{url_for('projectsTwo')}}">IoT Solution</a>
                     </li>
-                    <li class="nav-label">
-                        <a href="#"><span>Call Me:</span> +1(210)-757-0668 </a>
+                    <li class="">
+                        <a href="{{url_for('projectsThree')}}">Embedded Solution</a>
                     </li>
+                    <li class="">
+                        <a href="{{url_for('contactOne')}}">Contact</a>
+                    </li>
+                <li class="nav-label">
+                    <a href="#"><span>Call Me:</span> +1(210)-757-0668 </a>
+                </li>
                 </ul>
                 <div class="menu-right">
                     <div class="custom-area">
                         Jarrell,<br />
                         Texas, United States
                     </div>
-                    <!-- <div class="shop-menu-cnt">
-                        <i></i>
-                        <div class="shop-menu">
-                            <ul class="shop-cart">
-                                <li class="cart-item">
-                                    <img src="{{url_for('static', filename = 'media/shop/shop-2.png')}}" alt="">
-                                    <div class="cart-content">
-                                        <h5>Adobe XD Tutorial</h5>
-                                        <span class="cart-quantity">
-                                            1 x $99.00
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="cart-item">
-                                    <img src="{{url_for('static', filename = 'media/shop/shop-6.png')}}" alt="">
-                                    <div class="cart-content">
-                                        <h5>Professional Adobe XD</h5>
-                                        <span class="cart-quantity">
-                                            1 x $99.00
-                                        </span>
-                                    </div>
-                                </li>
-                            </ul>
-                            <p class="cart-total">
-                                Subtotal: <span>$299.00</span>
-                            </p>
-                            <p class="cart-buttons">
-                                <a href="#" class="cart-view">View Cart</a>
-                                <a href="#" class="cart-checkout">Checkout</a>
-                            </p>
-                        </div>
-                    </div> -->
                     </form>
                     <ul class="lan-menu">
                         <li class="dropdown">
                             <a href="#"><img src="{{url_for('static', filename = 'media/en.png')}}" alt="lang" />EN </a>
                             <ul>
-                                <li><a href="#"><img src="{{url_for('static', filename = 'media/it.png')}}" alt="lang" />IT</a></li>
-                                <li><a href="#"><img src="{{url_for('static', filename = 'media/es.png')}}" alt="lang" />ES</a></li>
+                                <li><a href="#"><img src="{{url_for('static', filename = 'media/it.png')}}"
+                                            alt="lang" />IT</a></li>
+                                <li><a href="#"><img src="{{url_for('static', filename = 'media/es.png')}}"
+                                            alt="lang" />ES</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -183,140 +86,120 @@
             </div>
         </div>
     </nav>
-    <header class="header-image ken-burn-center light" data-parallax="true" data-natural-height="500" data-natural-width="1920" data-bleed="0" data-image-src="media/hd-wide-1.jpg" data-offset="0">
+    <!-- <header class="header-image ken-burn-center light" data-parallax="true" data-natural-height="300" data-natural-width="1900" data-bleed="0" data-image-src="/static/media/hd-wide-1.jpg" data-offset="0">
         <div class="container">
-            <h1>Projects one</h1>
-            <h2>Clients featured projects</h2>
-            <ol class="breadcrumb">
-                <li><a href="{{url_for('home')}}">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Projects one</a></li>
-            </ol>
+            <h1>IoT Solutions</h1>
+            <h2>Innovative Projects Transforming the Future</h2>
         </div>
-    </header>
+    </header> -->
     <main>
         <section class="section-base section-color">
             <div class="container">
-                <ul class="slider arrows-inner-right" data-options="arrows:true,nav:false">
-                    <li>
-                        <a href="#" class="media-box media-box-reveal">
-                            <img alt="" src="{{url_for('static', filename = 'media/wide-large-1.jpg')}}">
-                            <div class="caption">
-                                <h2>Barcleys financial statements</h2>
-                                <div class="extra-field">Barcleys</div>
-                                <h3>December, 2020</h3>
-                                <p>
-                                    Lorem ipsum dolore consectetur adipisicing elito sedo incididunto pertinole.
-                                    Duis aute irure dolor in reprehendero  in voluptate velit esse cilluo.
-                                </p>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Embedded AI Solutions</h1>
+                        <h4 style="margin-bottom: 10px;">Innovative Projects Transforming the Future</h4>
+                        <div class="grid-list pagination-top-right" data-columns="1">
+                            <div class="grid-box">
+                                <div class="grid-item">
+                                    <div class="cnt-box cnt-box-side boxed" data-href="#">
+                                        <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/smart-home.jpg')}}" alt="" /></a>
+                                        <div class="caption">
+                                            <h2>Smart Home / Building / Farming</h2>
+                                            <div class="extra-field">AI, Node-RED, Bacnet, Wireless Communication, BLE, Wi-Fi, LoRaWan, Firmware, Android, iOS, Dashboard</div>
+                                            <p>
+                                                Enhance your living space with our advanced IoT solutions. Our smart home technologies integrate home automation, AI, and IoT devices for a seamless, efficient, and connected experience. Control everything from lighting to security systems with ease through your smartphone.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="cnt-box cnt-box-side boxed" data-href="#">
+                                        <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/smart-iot.jpg')}}" alt="" /></a>
+                                        <div class="caption">
+                                            <h2>Smart IoT Devices</h2>
+                                            <div class="extra-field">PCB Design, Embedded Firmware, IoT Protocol, Senors and Actuators, Power Managements, Prototyping</div>
+                                            <p>
+                                                Discover our range of smart devices designed to simplify and improve your daily life. These devices are equipped with the latest IoT technologies, offering enhanced functionality, reliability, and user-friendliness. From smart thermostats to wearable tech, our smart devices cater to various needs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="cnt-box cnt-box-side boxed" data-href="#">
+                                        <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/smart-platform.jpg')}}" alt="" /></a>
+                                        <div class="caption">
+                                            <h2>Cloud IoT Platform</h2>
+                                            <div class="extra-field">AWS IoT, Azure IoT, MQTT, AWS/Azure DevOps, ChirpStack, API Development</div>
+                                            <p>
+                                                Our Cloud IoT Platform leverages the capabilities of leading cloud services like AWS, Azure, and Google Cloud to deliver scalable, secure, and efficient IoT solutions. It supports real-time data processing, device management, and remote monitoring. Utilizing advanced data analytics and robust IoT protocols, our platform ensures seamless communication and control over connected devices. Designed for security, scalability, and high performance, it is ideal for diverse applications across various industries.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="media-box media-box-reveal">
-                            <img alt="" src="{{url_for('static', filename = 'media/wide-large-2.jpg')}}">
-                            <div class="caption">
-                                <h2>Microsoft for blockchains</h2>
-                                <div class="extra-field">Microsoft</div>
-                                <h3>March, 2020</h3>
-                                <p>
-                                    Lorem ipsum dolore consectetur adipisicing elito sedo incididunto pertinole.
-                                    Duis aute irure dolor in reprehendero  in voluptate velit esse cilluo.
-                                </p>
+                            <div class="list-pagination">
+                                <ul class="pagination" data-page-items="1" data-pagination-anima="fade-bottom"></ul>
                             </div>
-                        </a>
-                    </li>
-                </ul>
-                <hr class="space" />
-                <div class="maso-list" data-columns="3" data-columns-lg="2" data-columns-sm="1">
-                    <div class="menu-inner">
-                        <div><i class="menu-btn"></i><span>Menu</span></div>
-                        <ul>
-                            <li class="active"><a data-filter="maso-item" href="#">All</a></li>
-                            <li><a data-filter="cat-1" href="#">Software</a></li>
-                            <li><a data-filter="cat-2" href="#">Financial</a></li>
-                            <li><a data-filter="cat-3" href="#">Business</a></li>
-                            <li><a class="maso-order" data-sort="asc"></a></li>
-                        </ul>
+                        </div>
                     </div>
+                </div>
+                <hr class="space" />
+                <div class="maso-list" data-columns="3" data-columns-md="2"  data-columns-sm="1">
                     <div class="maso-box">
                         <div class="maso-item cat-2 cat-3">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/image-9.jpg')}}" alt="" /></a>
+                            <a href="#" class="media-box media-box-full" data-href="#">
+                                <img alt="" src="{{url_for('static', filename = 'media/p2-2.jpg')}}">
                                 <div class="caption">
                                     <h2>Security penetration technology and methods</h2>
-                                    <div class="extra-field">Google</div>
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proidento in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                    <a href="#" class="btn-text">Project details</a>
+                                    <div class="extra-field">Security System</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="maso-item cat-1 cat-3">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/image-14.jpg')}}" alt="" /></a>
+                            <a href="#" class="media-box media-box-full" data-href="#">
+                                <img alt="" src="{{url_for('static', filename = 'media/p2-3.jpg')}}">
                                 <div class="caption">
-                                    <h2>Social marketing campaign with analytics</h2>
-                                    <div class="extra-field">Facebook</div>
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proidento in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                    <a href="#" class="btn-text">Project details</a>
+                                    <h2>Logistics and location service</h2>
+                                    <div class="extra-field">Logistics</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="maso-item cat-1">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/image-5.jpg')}}" alt="" /></a>
+                            <a href="#" class="media-box media-box-full" data-href="#">
+                                <img alt="" src="{{url_for('static', filename = 'media/p2-1.jpg')}}">
                                 <div class="caption">
-                                    <h2>Transportation system development</h2>
-                                    <div class="extra-field">Wallmart</div>
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proidento in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                    <a href="#" class="btn-text">Project details</a>
+                                    <h2>Smart Health monitor with Wearable device</h2>
+                                    <div class="extra-field">Healthcare</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="maso-item cat-2 cat-3">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/image-15.jpg')}}" alt="" /></a>
+                            <a href="#" class="media-box media-box-full" data-href="#">
+                                <img alt="" src="{{url_for('static', filename = 'media/p2-4.jpg')}}">
                                 <div class="caption">
-                                    <h2>Open source and blockchain development</h2>
-                                    <div class="extra-field">Microsoft</div>
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proidento in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                    <a href="#" class="btn-text">Project details</a>
+                                    <h2>Smart Solar Grid with Inverter</h2>
+                                    <div class="extra-field">Smart Grid</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="maso-item cat-2">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/image-16.jpg')}}" alt="" /></a>
+                            <a href="#" class="media-box media-box-full" data-href="#">
+                                <img alt="" src="{{url_for('static', filename = 'media/p2-5.jpg')}}">
                                 <div class="caption">
-                                    <h2>Database artificial intelligence optimization</h2>
-                                    <div class="extra-field">Oracle</div>
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proidento in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                    <a href="#" class="btn-text">Project details</a>
+                                    <h2>Smart Farming with vaious sensors and actuators</h2>
+                                    <div class="extra-field">Smart Farming</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="maso-item cat-2 cat-3">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="{{url_for('static', filename = 'media/image-10.jpg')}}" alt="" /></a>
+                            <a href="#" class="media-box media-box-full" data-href="#">
+                                <img alt="" src="{{url_for('static', filename = 'media/p2-6.jpg')}}">
                                 <div class="caption">
-                                    <h2>Mobile banking app improvements</h2>
-                                    <div class="extra-field">Barcleys</div>
-                                    <p>
-                                        Excepteur sint occaecat cupidatat non proidento in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                    <a href="#" class="btn-text">Project details</a>
+                                    <h2>Industrial IoT with Wango PLC</h2>
+                                    <div class="extra-field">IIoT</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -327,41 +210,52 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h3>DreamJourney</h3>
-                    <p>Full suite enable teams to develop unique search and discovery experiences.</p>
+                    <h3>Brian Hernandez</h3>
+                    <p>Expert in IoT, Full-Stack and Embedded Systems, Founder of DigiTransIoT.</p>
                     <div class="icon-links icon-social icon-links-grid social-colors">
-                        <a class="facebook"><i class="icon-facebook"></i></a>
-                        <a class="twitter"><i class="icon-twitter"></i></a>
-                        <a class="instagram"><i class="icon-instagram"></i></a>
-                        <a class="pinterest"><i class="icon-pinterest"></i></a>
+                        <a class="facebook" href="https://www.linkedin.com/in/brian-hernandez-phi/"><i
+                                class="icon-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <h3>Resources</h3>
+                    <h3>Solutions</h3>
                     <ul class="icon-list icon-line">
-                        <li><a href="#">Partners and advertising</a></li>
-                        <li><a href="#">About us and the company</a></li>
-                        <li><a href="#">Services and projects</a></li>
-                        <li><a href="#">Contact us online</a></li>
+                        <li><a href="#">IoT Platform Development</a></li>
+                        <li><a href="#">Embedded Software/Hardware</a></li>
+                        <li><a href="#">Full-Stack Development</a></li>
+                        <li><a href="#">FPGA/SoC/Embedded AI</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
                     <ul class="text-list text-list-line">
-                        <li><b>Address</b><hr /><p>Jarrell St, Texas, United States</p></li>
-                        <li><b>Email</b><hr /><p>brianhernandez30303@gmail.com</p></li>
-                        <li><b>Phone</b><hr /><p>+1(210)-757-0668</p></li>
-                        <li><b>Opening hours</b><hr /><p>8am-5pm Mon - Fri</p></li>
+                        <li><b>Address</b>
+                            <hr />
+                            <p>Jarrell Tx, United States</p>
+                        </li>
+                        <li><b>Email</b>
+                            <hr />
+                            <p>brainhernandezwork@gmail.com</p>
+                        </li>
+                        <li><b>Phone</b>
+                            <hr />
+                            <p>+1(210)-757-0668</p>
+                        </li>
+                        <li><b>Working hours</b>
+                            <hr />
+                            <p>9am-6pm Mon - Fri</p>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-bar">
             <div class="container">
-                <span>© DreamJourney - Innovative IT Company <a></a>.</span>
-                <span><a href="#">Contact us</a> | <a href="#">Privacy policy</a></span>
+                <span>© DigiTransIoT - Innovative IT Company <a></a>.</span>
+                <span><a href="#">Contact me</a> | <a href="#">Privacy policy</a></span>
             </div>
         </div>
-         <link rel="stylesheet" href="{{url_for('static', filename = './themekit/media/icons/iconsmind/line-icons.min.css')}}">
+        <link rel="stylesheet"
+            href="{{url_for('static', filename = './themekit/media/icons/iconsmind/line-icons.min.css')}}">
         <script src="{{url_for('static',filename = 'themekit/scripts/parallax.min.js')}}"></script>
         <script src="{{url_for('static',filename = 'themekit/scripts/glide.min.js')}}"></script>
         <script src="{{url_for('static',filename = 'themekit/scripts/magnific-popup.min.js')}}"></script>
@@ -369,9 +263,9 @@
         <script src="{{url_for('static',filename = 'themekit/scripts/imagesloaded.min.js')}}"></script>
         <script src="{{url_for('static',filename = 'themekit/scripts/progress.js')}}" async></script>
         <script src="{{url_for('static',filename = 'themekit/scripts/contact-form/contact-form.js')}}" async></script>
-        <script src="{{url_for('static',filename = '../../themekit.dev/tools/sidebar/sidebar.js')}}" data-setting="DreamJourney"></script>
+        <!-- <script src="{{url_for('static',filename = 'themekit.dev/tools/sidebar/sidebar.js')}}" -->
+            data-setting="DreamJourney"></script>
     </footer>
 </body>
-
-<!-- Mirrored from templates.themekit.dev/execoore/projects-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2024 22:28:35 GMT -->
+<!-- Mirrored from templates.themekit.dev/execoore/projects-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2024 22:28:35 GMT -->
 </html>
